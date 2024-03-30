@@ -4,7 +4,7 @@ use blkrs::run_lsblk;
 
 fn main() {
     let matches = Command::new("lsblk")
-        .version("0.0.1")
+        .version("0.1.1")
         .author("Alfredo Deza")
         .about("lsblk in Rust")
         .color(ColorChoice::Always)
